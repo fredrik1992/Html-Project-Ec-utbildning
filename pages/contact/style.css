@@ -1,0 +1,74 @@
+
+.page{
+    margin-right: auto;
+    margin-left: auto;
+    height: 940px;
+    width: 100%;
+
+}
+.container-header{
+    background-color: turquoise;
+    height: 10%;
+    
+    
+}
+
+.container-navbar{
+   
+    
+    background-color: #CDB599FF;
+    height: 8%;
+    
+}
+
+.container-box{
+    display: grid;
+   
+    background-color: yellow;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+}
+.form-box{
+    
+    grid-column-start: 1; 
+  grid-column-end: 3; 
+  grid-row-start: 1; 
+  grid-row-end: 3; 
+}
+
+    
+    
+    
+
+input label textarea{
+    
+   
+    margin: 10px;
+    
+}
+.submit-button{
+    position: relative;
+    grid-column-start: 4;
+    grid-row-start: 4;
+    width: 100px;
+    height: 50px;
+    left: 14px;
+}
+
+
+
+.container-footer{
+    height: 8%;
+    background-color: crimson;
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+  textarea{
+      
+  }
+
+}
